@@ -10,7 +10,7 @@ This project provides some customized extensions for Apache Kylin.
 
 There are three build-in roles of Kylin: "ADMIN", "MODELER", "ANALYST". Meanwhile Kylin supports LDAP authentication but only "ADMIN" role can be configured with a LDAP group name.(kylin.security.acl.admin-role)
 
-In some situation only one role is not enough. So KylinLdapAuthoritiesPopulator can be used to extend this function 
+In some situation only one role is not enough. So KylinLdapAuthoritiesPopulator can be used to expand the capacity. 
 
 PS: Apache Ranger can provide more flexible acl control on Kylin, but nowadays we are nowhere near that time. If 
 necessary we use ranger instead of this in the future. 
