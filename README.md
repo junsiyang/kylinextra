@@ -8,8 +8,7 @@ This project provides some customized extensions for Apache Kylin.
 ## KylinLdapAuthoritiesPopulator
 #### Why we need it:
 
-There are three build-in roles of Kylin: "ADMIN", "MODELER", "ANALYST".
-And Kylin supports LDAP authentication. But only "ADMIN" role can be configured with a LDAP group name.(kylin.security.acl.admin-role)
+There are three build-in roles of Kylin: "ADMIN", "MODELER", "ANALYST". Meanwhile Kylin supports LDAP authentication but only "ADMIN" role can be configured with a LDAP group name.(kylin.security.acl.admin-role)
 
 In some situation only one role is not enough. So KylinLdapAuthoritiesPopulator can be used to extend this function 
 
