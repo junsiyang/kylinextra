@@ -45,7 +45,7 @@ public class KylinLdapAuthoritiesPopulator extends DefaultLdapAuthoritiesPopulat
         }
 
         if (roles.length > 2) {
-            this.modelerRoleAsAuthority = new SimpleGrantedAuthority(roles[2]);
+            this.analystRoleAsAuthority = new SimpleGrantedAuthority(roles[2]);
         }
     }
 
